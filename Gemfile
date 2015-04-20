@@ -11,6 +11,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 
 group :development, :test do
+=======
+gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'bootstrap-sass'
+
+group :development, :testing do
 	gem 'sqlite3'
 end
 
