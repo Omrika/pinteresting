@@ -10,13 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 
-group :development, :test do
-=======
-gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
-gem 'bootstrap-sass'
 
-group :development, :testing do
+group :development, :test do
 	gem 'sqlite3'
 end
 
@@ -26,5 +21,5 @@ group :production do
 end
 
 group :doc do
-	gem 'sdoc', require :false
+	gem 'sdoc', require: false
 end
